@@ -1,0 +1,163 @@
+a {
+    text-decoration: none;
+    color: #5f6368;
+    padding: 6px;
+}
+
+ul {
+    width: 200px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li,
+a {
+    font-family: "Roboto", sans-serif;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #f2f2f2;
+    border-radius: 17px;
+    background: transparent;
+}
+
+p,
+br {
+    color: gray;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.image-container {
+    width: 50px;
+}
+
+.image {
+    width: 100%;
+    border-radius: 360px;
+}
+
+.logo-container {
+    height: 100px;
+    width: 300px;
+    padding-top: 2px;
+    padding-bottom: 20px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.footer {
+    background: #f2f2f2;
+    margin-bottom: 0;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.input-container {
+    margin: 0 15px;
+}
+
+.country {
+    display: flex;
+    align-items: center;
+    height: 30px;
+}
+
+.search-container {
+    height: 100px;
+    padding: 0;
+}
+
+.input-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 5px;
+}
+
+.search {
+    width: 500px;
+    margin: 0;
+}
+
+.button-wrap {
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+button {
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5f6368;
+    padding: 4px;
+}
+
+.menu-aceituna {
+    width: 100%;
+}
+
+.acei-container {
+    width: 30px;
+    padding: 1px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+}
+
+.menu-nav {
+    padding: 1px;
+}
+
+span {
+    color: blue;
+}
+
+span:hover {
+    text-decoration: underline;
+}
+
+.image_lupa {
+    width: 30px;
+    border: 0px;
+    position: relative;
+    top: 50px;
+    left: 2px;
+}
+
+.image_voice {
+    width: 30px;
+    border: 0px;
+    position: relative;
+    bottom: 50px;
+    left: 480px;
+}
+
+.text-google {
+    display: flex;
+    justify-content: center;
+}
